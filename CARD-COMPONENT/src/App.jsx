@@ -3,11 +3,13 @@ import Card from "./Card";
 function App() {
   return (
     <>
-     <Card/>
-     <Card/>
-     <Card/>
-     <Card/>
-     </>
+      <div className="container">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </>
   );
 }
 export default App
